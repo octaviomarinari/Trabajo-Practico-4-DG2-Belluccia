@@ -308,7 +308,7 @@ body {
 .section-heading h3 {
   font-weight: 300;
   line-height: 1.5;
-  color: #ebebeb;
+  color: #C1FF05;
   margin: 0;
 }
 @media screen and (max-width: 768px) {
@@ -664,7 +664,6 @@ body {
 }
 
 #fh5co-features {
-  background: #0B1836;
   padding: 7em 0;
 }
 @media screen and (max-width: 768px) {
@@ -690,7 +689,9 @@ body {
 }
 #fh5co-features .fh5co-service .fh5co-desc h3 {
   margin-top: 0;
-  font-size: 18px;
+  font-size: 20px;
+  color: #fafafa;
+  font-weight: 700;
 }
 
 .first-section {
@@ -1169,7 +1170,7 @@ body {
   float: right;
   text-align: right;
   position: relative;
-  bottom: -20rem;
+  bottom: -22rem;
 }
 @media screen and (max-width: 768px) {
   .owl-carousel-fullwidth .item .mobile-image .mobile {
@@ -1318,6 +1319,7 @@ body {
 
 .js .animate-box {
   opacity: 0;
+  color: #fafafa;
 }
 
 @media screen and (max-width: 480px) {
@@ -1361,5 +1363,15 @@ body {
   animation-fill-mode: both;
 }
 
+.fondo-gradiente {
+  background: #0b1836;
+background: linear-gradient(270deg,#0b1836 0%, #000000 80%);
+background: -webkit-linear-gradient(270deg,#0b1836 0%, #000000 80%);
+background: -moz-linear-gradient(270deg,#0b1836 0%, #000000 80%);
+}
+
+.btn.btn-primary.boton {
+  color: #e30a0a;
+}
 
 /*# sourceMappingURL=style.css.map */
