@@ -29,7 +29,7 @@
 			dots: true,
 			autoHeight: true,
 			smartSpeed: 500,
-			autoplay: true,
+			autoplay: false,
 			autoplayTimeout: 5000,
 			autoplayHoverPause: true,
 		    navText: [	
