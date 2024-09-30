@@ -97,7 +97,7 @@ h4 {
 @media screen and (max-width: 768px) {
   #fh5co-header {
     margin-top: 0;
-    background: #fff;
+    background: #0B1836;
     -webkit-box-shadow: 0 0 9px 0 rgba(0, 0, 0, 0.1);
     -moz-box-shadow: 0 0 9px 0 rgba(0, 0, 0, 0.1);
     -ms-box-shadow: 0 0 9px 0 rgba(0, 0, 0, 0.1);
@@ -279,8 +279,8 @@ body {
   clear: both;
 }
 .section-heading h2 {
-  font-size: 40px;
-  font-weight: 300;
+  font-size: 36px;
+  font-weight: 500;
   color: #444;
   text-transform: uppercase;
   position: relative;
@@ -307,6 +307,7 @@ body {
   }
 }
 .section-heading h3 {
+  font-family:  "Rajdhani", "Work Sans", Arial, sans-serif;
   font-weight: 400;
   line-height: 1.5;
   color: #C1FF05;
@@ -331,9 +332,12 @@ body {
 #fh5co-testimonials,
 #fh5co-pricing,
 #fh5co-press,
-#fh5co-product-screenshots,
-#fh5co-tour {
+#fh5co-product-screenshots, {
   padding: 7em 0;
+}
+
+#fh5co-tour{
+  padding-top: 7em;
 }
 @media screen and (max-width: 480px) {
   #fh5co-our-services,
@@ -352,29 +356,39 @@ body {
   font-size: 30px;
 }
 #fh5co-tour .img-feature-1 {
-  -webkit-box-shadow: -1px -1px 58px -13px rgba(0, 0, 0, 0.9);
+/*   -webkit-box-shadow: -1px -1px 58px -13px rgba(0, 0, 0, 0.9);
   -moz-box-shadow: -1px -1px 58px -13px rgba(0, 0, 0, 0.9);
   -ms-box-shadow: -1px -1px 58px -13px rgba(0, 0, 0, 0.9);
   -o-box-shadow: -1px -1px 58px -13px rgba(0, 0, 0, 0.9);
-  box-shadow: -1px -1px 58px -13px rgba(0, 0, 0, 0.9);
+  box-shadow: -1px -1px 58px -13px rgba(0, 0, 0, 0.9); */
 }
 
 #fh5co-testimonials {
-  background: #C1FF05;
-  background: #ba78ff;
+  background: #000000;
+  background: linear-gradient(270deg,#000000 0%, #030711 100%);
+  background: -webkit-linear-gradient(270deg,#000000 0%, #030711 100%);
+  background: -moz-linear-gradient(270deg,#000000 0%, #030711 100%);
+  padding-top: 5em;
+  padding-bottom: 3em;
 }
 #fh5co-testimonials .section-heading h2 {
   color: white;
+
 }
 #fh5co-testimonials .section-heading h2:after {
   background: rgba(255, 255, 255, 0.2);
 }
 #fh5co-testimonials .section-heading .subtext h3 {
-  color: rgba(255, 255, 255, 0.5);
+  color: #C1FF05;
+  font-family: "Rajdhani", "Work Sans", Arial, sans-serif;
 }
 #fh5co-testimonials .box-testimony {
-  margin-bottom: 2em;
-  float: left;
+  margin-bottom: 4em;
+  margin-top: -2em;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 100%;
 }
 #fh5co-testimonials .box-testimony a {
   color: rgba(255, 255, 255, 0.5);
@@ -384,26 +398,17 @@ body {
   text-decoration: none;
 }
 #fh5co-testimonials .box-testimony blockquote {
-  padding-left: 0;
   border-left: none;
-  padding: 40px;
-  background: #fff;
+  background: #0B1836;
+  background: linear-gradient(270deg,#0B1836 0%, #010B22 100%);
+  background: -webkit-linear-gradient(270deg,#0B1836 0%, #010B22 100%);
+  background: -moz-linear-gradient(270deg,#0B1836 0%, #010B22 100%);
   position: relative;
-  -webkit-border-radius: 4px;
-  -moz-border-radius: 4px;
-  -ms-border-radius: 4px;
-  border-radius: 4px;
+
 }
-#fh5co-testimonials .box-testimony blockquote:after {
-  content: "";
-  position: absolute;
-  top: 100%;
-  left: 40px;
-  border-top: 15px solid black;
-  border-top-color: #fff;
-  border-left: 15px solid transparent;
-  border-right: 15px solid transparent;
-}
+
+
+
 #fh5co-testimonials .box-testimony blockquote .quote {
   position: absolute;
   top: 0;
@@ -412,7 +417,7 @@ body {
   font-size: 30px;
   line-height: 0;
   display: table;
-  color: #fff;
+  color: #ffffff;
   width: 56px;
   height: 56px;
   margin-top: -30px;
@@ -428,19 +433,27 @@ body {
   display: table-cell;
   vertical-align: middle;
 }
-#fh5co-testimonials .box-testimony blockquote p {
-  font-style: italic;
+#fh5co-testimonials .box-testimony blockquote img {
+  width: 100%;
+
 }
 #fh5co-testimonials .box-testimony .author {
   line-height: 20px;
   color: white;
-  font-size: 18px;
-  margin-left: 20px;
+  font-size: 20px;
+  text-align: center;
+  margin-top: -2em;
+  padding-top: 1.5em;
+  padding-bottom: 1em;
 }
 #fh5co-testimonials .box-testimony .author .subtext {
   display: block;
-  color: rgba(255, 255, 255, 0.5);
+  font-family: "Rajdhani", "Work Sans", Arial, sans-serif;
+  color: rgba(255, 255, 255,);
   font-size: 16px;
+  padding-top: 1em;
+  margin-left: 1em;
+  margin-right: 1em;
 }
 
 #fh5co-pricing .price-box {
@@ -574,7 +587,7 @@ body {
   height: 85px;
   margin: 0 auto;
   top: 0;
-  margin-top: -70px;
+  margin-top: -30px;
   margin-bottom: 30px;
   position: relative;
   -webkit-border-radius: 50%;
@@ -690,9 +703,9 @@ body {
 }
 #fh5co-features .fh5co-service .fh5co-desc h3 {
   margin-top: 0;
-  font-size: 20px;
+  font-size: 16px;
   color: #fafafa;
-  font-weight: 700;
+  font-weight: 400;
 }
 
 .first-section {
@@ -1376,9 +1389,43 @@ background: -moz-linear-gradient(270deg,#0b1836 0%, #000000 80%);
 }
 
 .cargador {
-  height: 100%;
-  flex: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 100%; /* Para que sea responsiva */
+    padding-top: 3em;
+  }
   
-}
+  .box-testimony img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 100%;
+  }
+
+  .logo{
+    font-family: audiowide;
+    font-size: 20px;
+  }
+
+  .velocidad{
+    font-size: 32px;
+    font-weight: 500;
+  }
+
+  .switch{
+    font-size: 20px;
+    font-weight: 400;
+  }
+
+  .sensor{
+    font-weight: 500;
+  }
+
+  .textura-final{
+    display: ;
+  }
+
+
 
 /*# sourceMappingURL=style.css.map */
