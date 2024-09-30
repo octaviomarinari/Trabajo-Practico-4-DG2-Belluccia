@@ -917,6 +917,11 @@ body {
 #footer .copyright {
   margin-bottom: 0px;
   padding-bottom: 0;
+  font-family: "Rajdhani", "Work Sans", Arial, sans-serif;
+}
+
+#footer .copyright p{
+  font-family: "Rajdhani", "Work Sans", Arial, sans-serif;
 }
 
 .btn {
